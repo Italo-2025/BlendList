@@ -47,6 +47,8 @@ public class RepositorioTarefas {
                         rs.getString("status"),
                         rs.getInt("id_usuarios")
                 );
+                tarefa.setId(rs.getInt("id"));
+                System.out.println(tarefa.toString());
                 lista.add(tarefa);
                 }
             }

@@ -34,8 +34,9 @@ public class TelaTarefaListar {
             for (Tarefas t : tarefas) {
                 listView.getItems().add(t.toString());
 
-                stage.close();
+
             }
+            stage.close();
         });
 
         layout.getChildren().addAll(lblTitulo, txtID, btnBuscar, listView);

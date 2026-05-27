@@ -26,9 +26,6 @@ public class Tarefas {
 
     @Override
     public String toString(){
-        System.out.println("TAREFAS ");
-        System.out.println("====================================================");
-
         return String.format("ID: %-5d|Titulo: %-20s|Status: %-10s|",
                 id, titulo, status);
     }
